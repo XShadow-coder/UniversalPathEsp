@@ -83,7 +83,7 @@ Instance.new("UICorner", clean).CornerRadius = UDim.new(0, 8)
 -- Hide UI Button
 local hideGui = Instance.new("TextButton", gui)
 hideGui.Size = UDim2.new(0, 100, 0, 35)
-hideGui.Position = UDim2.new(0.5, -50, 0, 10)
+hideGui.Position = UDim2.new(0, 10, 0, 10)
 hideGui.Text = "Hide UI"
 hideGui.BackgroundColor3 = Color3.fromRGB(35,35,35)
 hideGui.TextColor3 = Color3.new(1,1,1)
